@@ -11,6 +11,8 @@ import sound8 from './assets/sound/krisa.mp3'
 import sound9 from './assets/sound/davai-po-novoi-misha.mp3'
 import sound10 from './assets/sound/ebanyii-v-rot-etogo-kazino.mp3'
 import sound11 from './assets/sound/ya-musulman.mp3'
+import sound12 from './assets/sound/sigma.mp3'
+import sound13 from './assets/sound/china.mp3'
 
 import image1 from './assets/image/allo_cat.jpeg'
 import image2 from './assets/image/da_eto_ya.jpeg'
@@ -23,6 +25,10 @@ import image8 from './assets/image/krisa.jpeg'
 import image9 from './assets/image/davai-po-novoi-misha.jpeg'
 import image10 from './assets/image/ebanyii-v-rot-etogo-kazino.jpeg'
 import image11 from './assets/image/ya-musulman.jpeg'
+import image12 from './assets/image/sigma.jpeg'
+import image13 from './assets/image/china.jpeg'
+
+
 
 function App() {
     const sounds = [
@@ -43,6 +49,18 @@ function App() {
             url: sound3,
             type: 'audio/mp3',
             image: image3
+        },
+        {
+            name: 'sound12',
+            url: sound12,
+            type: 'audio/mp3',
+            image: image12
+        },
+        {
+            name: 'sound13',
+            url: sound13,
+            type: 'audio/mp3',
+            image: image13
         },
         {
             name: 'sound4',
