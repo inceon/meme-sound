@@ -5,12 +5,24 @@ import sound2 from './assets/sound/da_eto_ya.mp3'
 import sound3 from './assets/sound/na_balkon.mp3'
 import sound4 from './assets/sound/misku_veliku.mp3'
 import sound5 from './assets/sound/nice.mp3'
+import sound6 from './assets/sound/otdai-salo.mp3'
+import sound7 from './assets/sound/schas-zareju.mp3'
+import sound8 from './assets/sound/krisa.mp3'
+import sound9 from './assets/sound/davai-po-novoi-misha.mp3'
+import sound10 from './assets/sound/ebanyii-v-rot-etogo-kazino.mp3'
+import sound11 from './assets/sound/ya-musulman.mp3'
 
 import image1 from './assets/image/allo_cat.jpeg'
 import image2 from './assets/image/da_eto_ya.jpeg'
 import image3 from './assets/image/na_balkon.jpeg'
 import image4 from './assets/image/miska_holubiv.jpeg'
 import image5 from './assets/image/nice.jpeg'
+import image6 from './assets/image/otdai-salo.jpeg'
+import image7 from './assets/image/schas-zareju.jpeg'
+import image8 from './assets/image/krisa.jpeg'
+import image9 from './assets/image/davai-po-novoi-misha.jpeg'
+import image10 from './assets/image/ebanyii-v-rot-etogo-kazino.jpeg'
+import image11 from './assets/image/ya-musulman.jpeg'
 
 function App() {
     const sounds = [
@@ -44,6 +56,42 @@ function App() {
             type: 'audio/mp3',
             image: image5
         },
+        {
+            name: 'sound6',
+            url: sound6,
+            type: 'audio/mp3',
+            image: image6
+        },
+        {
+            name: 'sound7',
+            url: sound7,
+            type: 'audio/mp3',
+            image: image7
+        },
+        {
+            name: 'sound8',
+            url: sound8,
+            type: 'audio/mp3',
+            image: image8
+        },
+        {
+            name: 'sound9',
+            url: sound9,
+            type: 'audio/mp3',
+            image: image9
+        },
+        {
+            name: 'sound10',
+            url: sound10,
+            type: 'audio/mp3',
+            image: image10
+        },
+        {
+            name: 'sound11',
+            url: sound11,
+            type: 'audio/mp3',
+            image: image11
+        }
     ]
   return (<>
     <h1 style={{textAlign: 'center'}}>Meme Player</h1>
