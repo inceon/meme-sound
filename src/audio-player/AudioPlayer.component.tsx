@@ -35,7 +35,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({src, type, name, image}) => {
 
 	return (
 		<div className={style.audioPlayer} onClick={togglePlayPause}>
-			<audio ref={audioRef} controls style={{display : 'none'}}>
+			<audio ref={audioRef} controls >
 				<source src={src} type={type}/>
 				Your browser does not support the audio element.
 			</audio>
