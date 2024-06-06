@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import style from './AudioPlayer.module.css';
 
 interface AudioPlayerProps {
@@ -21,6 +21,18 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({src, type, name, image}) => {
 			setIsPlaying(!isPlaying);
 		}
 	};
+
+	useEffect(() => {
+		const audio = audioRef.current;
+		if (audio) {
+			const handleEnded = () => setIsPlaying(false);
+			audio.addEventListener('ended', handleEnded);
+			return () => {
+				audio.removeEventListener('ended', handleEnded);
+			};
+		}
+	}, []);
+
 	return (
 		<div className={style.audioPlayer} onClick={togglePlayPause}>
 			<audio ref={audioRef} controls style={{display : 'none'}}>
