@@ -15,6 +15,7 @@ import sound12 from './assets/sound/sigma.mp3'
 import sound13 from './assets/sound/china.mp3'
 import sound14 from './assets/sound/oh_no.mp3'
 import sound15 from './assets/sound/ne_iskal.mp3'
+import sound16 from './assets/sound/coke.mp3'
 
 import image1 from './assets/image/allo_cat.jpeg'
 import image2 from './assets/image/da_eto_ya.jpeg'
@@ -31,6 +32,8 @@ import image12 from './assets/image/sigma.jpeg'
 import image13 from './assets/image/china.jpeg'
 import image14 from './assets/image/oh_no.jpeg'
 import image15 from './assets/image/ne_iskal.jpeg'
+import image16 from './assets/image/coke.png'
+
 
 function App() {
     const sounds = [
@@ -93,6 +96,12 @@ function App() {
             url: sound6,
             type: 'audio/mp3',
             image: image6
+        },
+        {
+            name: 'sound16',
+            url: sound16,
+            type: 'audio/mp3',
+            image: image16
         },
         {
             name: 'sound7',
