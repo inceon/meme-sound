@@ -16,6 +16,7 @@ import sound13 from './assets/sound/china.mp3'
 import sound14 from './assets/sound/oh_no.mp3'
 import sound15 from './assets/sound/ne_iskal.mp3'
 import sound16 from './assets/sound/coke.mp3'
+import sound17 from './assets/sound/piva.mp3'
 
 import image1 from './assets/image/allo_cat.jpeg'
 import image2 from './assets/image/da_eto_ya.jpeg'
@@ -33,6 +34,7 @@ import image13 from './assets/image/china.jpeg'
 import image14 from './assets/image/oh_no.jpeg'
 import image15 from './assets/image/ne_iskal.jpeg'
 import image16 from './assets/image/coke.png'
+import image17 from './assets/image/piva.jpg'
 
 
 function App() {
@@ -132,7 +134,13 @@ function App() {
             url: sound11,
             type: 'audio/mp3',
             image: image11
-        }
+        },
+        {
+            name: 'sound17',
+            url: sound17,
+            type: 'audio/jpg',
+            image: image17
+        },
     ]
   return (<>
     <h1 style={{textAlign: 'center'}}>Meme Player</h1>
