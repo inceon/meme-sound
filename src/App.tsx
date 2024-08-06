@@ -138,7 +138,7 @@ function App() {
         {
             name: 'sound17',
             url: sound17,
-            type: 'audio/jpg',
+            type: 'audio/mp3',
             image: image17
         },
     ]
